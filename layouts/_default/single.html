@@ -1,0 +1,7 @@
+{{ define "main" }}  
+<p>This page uses the SINGLE template.</p>
+<p>The lastmod date of this page is: {{ .Lastmod}}</p>
+<p>The publish date of this page is: {{ .PublishDate}}</p>
+<h1>Page content</h1>
+{{ .Content }}  
+{{ end }}
